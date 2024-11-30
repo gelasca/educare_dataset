@@ -1,0 +1,6 @@
+-- INSERT INTO TABLE alunos values
+-- (),
+-- ();
+-- INSERT INTO TABLE professores values
+-- (),
+-- ();

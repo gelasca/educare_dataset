@@ -1,0 +1,4 @@
+FROM postgres:15
+WORKDIR /home/scripts
+EXPOSE 5432
+ENV POSTGRES_DB='educare' POSTGRES_PASSWORD='123123'
