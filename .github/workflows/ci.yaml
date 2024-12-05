@@ -1,0 +1,21 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - "main"
+    tags:
+      - "v*"
+
+jobs:
+  ci_pipeline:
+    runs-on: ubuntu-latest
+    env:
+      
+      D: D
+    steps:
+      - name: Checkout Repository Files
+        run: actions/checkout@v3
+      - name: Docker Hub Login
+        run: docker login -u= -p=
+      
